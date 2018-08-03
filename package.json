@@ -1,0 +1,26 @@
+{
+  "name": "react-practice",
+  "version": "1.0.0",
+  "description": "Practice building a React application.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zackcarlson/react-practice.git"
+  },
+  "keywords": [
+    "react",
+    "redux",
+    "react-router",
+    "practice"
+  ],
+  "author": "Zack Carlson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zackcarlson/react-practice/issues"
+  },
+  "homepage": "https://github.com/zackcarlson/react-practice#readme"
+}
