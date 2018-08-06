@@ -5,7 +5,7 @@ const router = express.Router();
 /*
  * Get HOME page
 */
-router.get('/', (req, res) => {
+router.get('*', (req, res) => {
   res.render('index');
 });
 
