@@ -2,11 +2,7 @@
  * Module dependencies.
  */
 import http from 'http';
-import express from 'express';
-/**
- * Express app setup
- */
-const app = express();
+import app from '../app';
 /**
  * Simple logger function.
  */
