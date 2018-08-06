@@ -11,6 +11,13 @@ app.set('view engine', 'pug');
 // use routes
 app.use('/', routes);
 
+// handle 404 errors
+app.use((req, res, next) => {
+  const err = new Error('Not found!');
+  err.status = 404;
+  next(err);
+});
+
 // error handlers
 app.use((err, req, res, next) => {
   res.status(err.status || 500);
