@@ -1,6 +1,12 @@
 import path from 'path';
 import express from 'express';
+import dotenv from 'dotenv';
 import routes from './routes/index';
+
+// use dotenv
+dotenv.config({
+  silent: true,
+});
 
 const app = express();
 
