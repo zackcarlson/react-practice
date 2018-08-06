@@ -8,6 +8,9 @@ const app = express();
 app.set('views', path.join(__dirname, './views'));
 app.set('view engine', 'pug');
 
+// serve static files
+app.use(express.static(path.join(__dirname, './public')));
+
 // use routes
 app.use('/', routes);
 
